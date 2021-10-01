@@ -14,9 +14,14 @@
 
 
 </style>
-body {
-background: url(zsdfh.png) no-repeat;
--moz-background-size: 100%
+ body {
+    background: url(images/sun2.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+
 <body>
     <div class="wrapper">
         <h1 style="font-size: 40px;" class="h1">С 9 мая!</h1>
